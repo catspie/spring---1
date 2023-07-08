@@ -40,6 +40,14 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -53,13 +61,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "last_opened_file_path": "C:/Users/catsp/OneDrive/바탕 화면/spring/hello.spring",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.31266493",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors",
+    "settings.editor.splitter.proportion": "0.26362625"
   }
 }]]></component>
   <component name="RunManager">
@@ -68,7 +78,7 @@
       <module name="hello.spring.hello.spring.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hello.hello.spring.*" />
+          <option name="PATTERN" value="hello.hello.spring.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
