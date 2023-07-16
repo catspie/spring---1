@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="07426aed-782d-4f01-aeb7-f52aadf5daa6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/hello.spring/src/main/java/hello/hello/spring/domain/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello.spring/src/main/java/hello/hello/spring/repository/MemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello.spring/src/main/java/hello/hello/spring/repository/MemoryMemberRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello.spring/src/main/java/hello/hello/spring/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello.spring/src/main/java/hello/hello/spring/controller/HelloController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,13 +48,39 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="feat/sy-2" />
+                    <option name="lastUsedInstant" value="1689517272" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="feat/sy-1" />
+                    <option name="lastUsedInstant" value="1689517271" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
