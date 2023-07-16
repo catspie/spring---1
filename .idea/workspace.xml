@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="07426aed-782d-4f01-aeb7-f52aadf5daa6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/hello.spring/src/main/java/hello/hello/spring/domain/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello.spring/src/main/java/hello/hello/spring/repository/MemberRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello.spring/src/main/java/hello/hello/spring/repository/MemoryMemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello.spring/src/main/java/hello/hello/spring/service/MemberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello.spring/src/test/java/hello/hello/spring/repository/MemoryMemberRepositoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello.spring/src/main/java/hello/hello/spring/repository/MemoryMemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello.spring/src/main/java/hello/hello/spring/repository/MemoryMemberRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +110,7 @@
       <recent name="C:\Users\catsp\OneDrive\바탕 화면\spring\hello.spring\hello.spring\src\main\resources\static" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.MemoryMemberRepositoryTest">
     <configuration name="Application" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hello.hello.spring.Application" />
       <module name="hello.spring.hello.spring.main" />
@@ -124,6 +124,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MemoryMemberRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hello.spring.hello.spring.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.hello.spring.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hello.hello.spring.repository" />
+      <option name="MAIN_CLASS_NAME" value="hello.hello.spring.repository.MemoryMemberRepositoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MemoryMemberRepositoryTest.findByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hello.spring.hello.spring.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.hello.spring.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hello.hello.spring.repository" />
+      <option name="MAIN_CLASS_NAME" value="hello.hello.spring.repository.MemoryMemberRepositoryTest" />
+      <option name="METHOD_NAME" value="findByName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MemoryMemberRepositoryTest.save" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hello.spring.hello.spring.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.hello.spring.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hello.hello.spring.repository" />
+      <option name="MAIN_CLASS_NAME" value="hello.hello.spring.repository.MemoryMemberRepositoryTest" />
+      <option name="METHOD_NAME" value="save" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MemoryMemberRepositoryTest" />
+        <item itemvalue="JUnit.MemoryMemberRepositoryTest.findByName" />
+        <item itemvalue="JUnit.MemoryMemberRepositoryTest.save" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
