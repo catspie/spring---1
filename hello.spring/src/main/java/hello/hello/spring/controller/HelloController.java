@@ -18,11 +18,10 @@ public class HelloController {
         model.addAttribute("name", name);
         return "hello_template";
     }
-
     /**
      * ResponseBody: 응답부(response)에 바로 값을 넣어주겠다는 뜻
      * */
-    @GetMapping("hello_string")
+    @GetMapping("hello_spring")
     @ResponseBody
     public String helloString(@RequestParam(value = "name") String name, Model model) {
         model.addAttribute("name", name);
@@ -35,8 +34,16 @@ public class HelloController {
         hello.setName(name);
         return hello; //객체를 반환
     }
+    /**
+     * key: name, value: ?뒤에 입력한 값 > json
+     * xml 형식보다 가벼워 최근에는 json 방식을 주로 사용하고 있다.
+     */
     static class Hello{
         private String name;
+        /**
+         * 자바 빈 방식, 프로퍼티 방식
+         * private으로 선언한 변수를 public하게 get, set
+         */
         public String getName() {
             return name;
         }
@@ -44,5 +51,4 @@ public class HelloController {
             this.name = name;
         }
     }
-
 }
