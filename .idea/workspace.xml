@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="07426aed-782d-4f01-aeb7-f52aadf5daa6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/hello.spring/src/test/java/hello/hello/spring/service/MemberServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello.spring/src/main/java/hello/hello/spring/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello.spring/src/main/java/hello/hello/spring/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello.spring/src/main/java/hello/hello/spring/controller/MemberController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello.spring/src/main/resources/memo/memo.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello.spring/src/main/resources/static/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello.spring/src/main/java/hello/hello/spring/repository/MemoryMemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello.spring/src/main/java/hello/hello/spring/repository/MemoryMemberRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hello.spring/src/main/java/hello/hello/spring/service/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello.spring/src/main/java/hello/hello/spring/service/MemberService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello.spring/src/test/java/hello/hello/spring/service/MemberServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello.spring/src/test/java/hello/hello/spring/service/MemberServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,10 +53,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -66,12 +72,8 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="feat/sy-2" />
-                    <option name="lastUsedInstant" value="1689517272" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="feat/sy-1" />
-                    <option name="lastUsedInstant" value="1689517271" />
+                    <option name="branchName" value="feat/sy-3" />
+                    <option name="lastUsedInstant" value="1689604392" />
                   </RecentBranch>
                 </list>
               </option>
@@ -118,7 +120,7 @@
       <recent name="hello.hello.spring.service" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MemberServiceTest.중복_회원_예외">
+  <component name="RunManager" selected="Application.Application">
     <configuration name="Application" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hello.hello.spring.Application" />
       <module name="hello.spring.hello.spring.main" />

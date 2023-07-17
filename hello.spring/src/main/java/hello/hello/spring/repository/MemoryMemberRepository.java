@@ -2,9 +2,11 @@ package hello.hello.spring.repository;
 
 import hello.hello.spring.domain.Member;
 import lombok.val;
+import org.springframework.stereotype.Repository;
 
 import java.util.*;
 
+/*@Repository*/
 public class MemoryMemberRepository implements MemberRepository{
     private static Map<Long, Member> store = new HashMap<>();
     private static long sequence = 0L;
