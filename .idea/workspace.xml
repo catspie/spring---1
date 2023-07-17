@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="07426aed-782d-4f01-aeb7-f52aadf5daa6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/hello.spring/src/main/java/hello/hello/spring/controller/HomeContoroller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello.spring/src/main/java/hello/hello/spring/controller/MemberForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello.spring/src/main/resources/templates/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello.spring/src/main/resources/templates/members/createMemberForm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello.spring/src/main/resources/templates/members/memberList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello.spring/sql/ddl.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello.spring/src/main/java/hello/hello/spring/controller/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello.spring/src/main/java/hello/hello/spring/controller/MemberController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,8 +65,8 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="feat/sy-4" />
-                    <option name="lastUsedInstant" value="1689606782" />
+                    <option name="branchName" value="feat/sy-5" />
+                    <option name="lastUsedInstant" value="1689608387" />
                   </RecentBranch>
                 </list>
               </option>
