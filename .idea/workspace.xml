@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="07426aed-782d-4f01-aeb7-f52aadf5daa6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/hello.spring/sql/ddl.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello.spring/src/main/java/hello/hello/spring/repository/JdbcMemberRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello.spring/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/hello.spring/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello.spring/src/main/java/hello/hello/spring/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello.spring/src/main/java/hello/hello/spring/SpringConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello.spring/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hello.spring/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello.spring/src/test/java/hello/hello/spring/service/MemberServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello.spring/src/test/java/hello/hello/spring/service/MemberServiceIntergrationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +39,23 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="hello.spring" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="hello.spring" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="application" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="hello.spring" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="hello.spring" type="f1a62948:ProjectNode" />
                 <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
               </path>
             </expand>
@@ -48,8 +70,8 @@
       <list>
         <option value="Interface" />
         <option value="JUnit5 Test Class" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -85,24 +107,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/catsp/OneDrive/바탕 화면/spring/hello.spring",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.31266493",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
-    "settings.editor.splitter.proportion": "0.26362625"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/catsp/OneDrive/바탕 화면/spring/hello.spring&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.31266493&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.importing&quot;,
+    &quot;settings.editor.splitter.proportion&quot;: &quot;0.26362625&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="hello.hello.spring.repository" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\catsp\OneDrive\바탕 화면\spring\hello.spring\hello.spring\src\main\resources\templates" />
       <recent name="C:\Users\catsp\OneDrive\바탕 화면\spring\hello.spring\hello.spring\src\main\resources\static" />
@@ -114,13 +139,13 @@
       <recent name="hello.hello.spring.service" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Application">
-    <configuration name="Application" type="Application" factoryName="Application" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Application (1)">
+    <configuration name="Application (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hello.hello.spring.Application" />
-      <module name="hello.spring.hello.spring.main" />
+      <module name="hello.spring.hello.spring.main~1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hello.hello.spring.controller.*" />
+          <option name="PATTERN" value="hello.hello.spring.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,8 +153,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MemberServiceTest.회원가임" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hello.spring.hello.spring.test" />
+    <configuration name="hello.spring [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/hello.spring" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>false</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="MemberServiceIntergrationTest.회원가임" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hello.spring.hello.spring.test~1" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="hello.hello.spring.service.*" />
@@ -137,15 +184,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="hello.hello.spring.service" />
-      <option name="MAIN_CLASS_NAME" value="hello.hello.spring.service.MemberServiceTest" />
+      <option name="MAIN_CLASS_NAME" value="hello.hello.spring.service.MemberServiceIntergrationTest" />
       <option name="METHOD_NAME" value="회원가임" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MemberServiceTest.중복_회원_예외" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hello.spring.hello.spring.test" />
+    <configuration name="MemberServiceIntergrationTest.회원가입" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hello.spring.hello.spring.test~1" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="hello.hello.spring.service.*" />
@@ -153,67 +200,43 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="hello.hello.spring.service" />
-      <option name="MAIN_CLASS_NAME" value="hello.hello.spring.service.MemberServiceTest" />
+      <option name="MAIN_CLASS_NAME" value="hello.hello.spring.service.MemberServiceIntergrationTest" />
+      <option name="METHOD_NAME" value="회원가입" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MemberServiceIntergrationTest.중복_회원_예외" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hello.spring.hello.spring.test~1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.hello.spring.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hello.hello.spring.service" />
+      <option name="MAIN_CLASS_NAME" value="hello.hello.spring.service.MemberServiceIntergrationTest" />
       <option name="METHOD_NAME" value="중복_회원_예외" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MemoryMemberRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hello.spring.hello.spring.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hello.hello.spring.repository.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="hello.hello.spring.repository" />
-      <option name="MAIN_CLASS_NAME" value="hello.hello.spring.repository.MemoryMemberRepositoryTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MemoryMemberRepositoryTest.findByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hello.spring.hello.spring.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hello.hello.spring.repository.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="hello.hello.spring.repository" />
-      <option name="MAIN_CLASS_NAME" value="hello.hello.spring.repository.MemoryMemberRepositoryTest" />
-      <option name="METHOD_NAME" value="findByName" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MemoryMemberRepositoryTest.save" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hello.spring.hello.spring.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hello.hello.spring.repository.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="hello.hello.spring.repository" />
-      <option name="MAIN_CLASS_NAME" value="hello.hello.spring.repository.MemoryMemberRepositoryTest" />
-      <option name="METHOD_NAME" value="save" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="Application.Application (1)" />
+      <item itemvalue="Gradle.hello.spring [clean]" />
+      <item itemvalue="JUnit.MemberServiceIntergrationTest.중복_회원_예외" />
+      <item itemvalue="JUnit.MemberServiceIntergrationTest.회원가임" />
+      <item itemvalue="JUnit.MemberServiceIntergrationTest.회원가입" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MemberServiceTest.중복_회원_예외" />
-        <item itemvalue="JUnit.MemberServiceTest.회원가임" />
-        <item itemvalue="JUnit.MemoryMemberRepositoryTest" />
-        <item itemvalue="JUnit.MemoryMemberRepositoryTest.findByName" />
-        <item itemvalue="JUnit.MemoryMemberRepositoryTest.save" />
+        <item itemvalue="Application.Application (1)" />
+        <item itemvalue="JUnit.MemberServiceIntergrationTest.회원가입" />
+        <item itemvalue="JUnit.MemberServiceIntergrationTest.회원가임" />
+        <item itemvalue="Gradle.hello.spring [clean]" />
+        <item itemvalue="JUnit.MemberServiceIntergrationTest.중복_회원_예외" />
       </list>
     </recent_temporary>
   </component>

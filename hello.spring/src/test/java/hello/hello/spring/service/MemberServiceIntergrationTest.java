@@ -1,11 +1,14 @@
 package hello.hello.spring.service;
 
 import hello.hello.spring.domain.Member;
+import hello.hello.spring.repository.MemberRepository;
 import hello.hello.spring.repository.MemoryMemberRepository;
 import org.assertj.core.api.Assertions;
-import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.transaction.annotation.Transactional;
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 import static org.junit.jupiter.api.Assertions.assertThrows;
@@ -14,19 +17,23 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 /**
  *  테스트코드 자동완성 단축키: ctrl + shift + t
  */
-class MemberServiceTest {
+@SpringBootTest
+@Transactional
+class MemberServiceIntergrationTest {
 
     /**
      *  테스트 작성 특징
      *  - 함수 이름 직관적인 한글로 지정 가능
      *  - given-when-then 문법
      */
-    MemberService memberService;
-    MemoryMemberRepository memberRepository;
+    @Autowired MemberService memberService;
+    //@Autowired MemoryMemberRepository memberRepository;
+    @Autowired
+    MemberRepository memberRepository;
 
     /**
      *   di : 외부에서 memberRepository를 가져와 memberService에 넣어주는것
-     */
+ 2    */
     @BeforeEach
     public void beforeEach(){
         memberRepository = new MemoryMemberRepository();
@@ -35,15 +42,17 @@ class MemberServiceTest {
     /**
      *  데이터 쌓이지 않도록 afterEach 메소드로 clear
      */
+/*
     @AfterEach
     public void afterEach(){
         memberRepository.clearStore();
     }
+*/
     @Test
-    void 회원가임() {
+    void 회원가입() {
         //given
         Member member = new Member();
-        member.setName("Hello");
+        member.setName("spring");
         //when
         Long saveId = memberService.join(member);
         //then
