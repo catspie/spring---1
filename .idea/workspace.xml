@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="07426aed-782d-4f01-aeb7-f52aadf5daa6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/modules/hello.spring.hello.spring.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/hello.spring/src/main/java/hello/hello/spring/repository/JdbcTemplateMemberRepository.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/hello.spring/src/main/java/hello/hello/spring/repository/JpaMemberRepository.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/hello.spring/src/main/java/hello/hello/spring/repository/SpringDataJpaMemberRepository.java" afterDir="false" />
