@@ -4,11 +4,17 @@ import hello.hello.spring.domain.Member;
 import hello.hello.spring.repository.MemberRepository;
 import hello.hello.spring.repository.MemoryMemberRepository;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 import java.util.Optional;
 
 /*@Service*/
+/**
+ *  스프링은 해당 클래스의 메서드를 실행 시 트랜잭션을 시작하고, 메서드가 정상 종료되면 트랜잭션을 커밋한다.
+ *  만약 런타임 예외가 발생하면 롤백한다.
+ */
+@Transactional
 public class MemberService {
     private final MemberRepository memberRepository;
 
