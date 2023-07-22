@@ -5,19 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="07426aed-782d-4f01-aeb7-f52aadf5daa6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules/hello.spring.hello.spring.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello.spring/src/main/java/hello/hello/spring/repository/JdbcTemplateMemberRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello.spring/src/main/java/hello/hello/spring/repository/JpaMemberRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello.spring/src/main/java/hello/hello/spring/repository/SpringDataJpaMemberRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello.spring/src/main/java/hello/hello/spring/aop/TimeTraceAop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello.spring/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/hello.spring/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hello.spring/src/main/java/hello/hello/spring/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello.spring/src/main/java/hello/hello/spring/SpringConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello.spring/src/main/java/hello/hello/spring/domain/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello.spring/src/main/java/hello/hello/spring/domain/Member.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hello.spring/src/main/java/hello/hello/spring/service/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello.spring/src/main/java/hello/hello/spring/service/MemberService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello.spring/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hello.spring/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello.spring/src/test/java/hello/hello/spring/service/MemberServiceIntergrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello.spring/src/test/java/hello/hello/spring/service/MemberServiceIntergrationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,8 +84,8 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="feat/sy-5" />
-                    <option name="lastUsedInstant" value="1689608387" />
+                    <option name="branchName" value="feat/sy-6" />
+                    <option name="lastUsedInstant" value="1690007590" />
                   </RecentBranch>
                 </list>
               </option>
@@ -146,10 +137,10 @@
       <recent name="hello.hello.spring.service" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.hello.spring [clean]">
-    <configuration name="Application (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Application">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hello.hello.spring.Application" />
-      <module name="hello.spring.hello.spring.main~1" />
+      <module name="hello.spring.hello.spring.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="hello.hello.spring.*" />
@@ -262,7 +253,7 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Application (1)" />
+      <item itemvalue="Application.Application" />
       <item itemvalue="Gradle.hello.spring [clean]" />
       <item itemvalue="JUnit.MemberServiceIntergrationTest" />
       <item itemvalue="JUnit.MemberServiceIntergrationTest.중복_회원_예외" />
@@ -270,10 +261,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Application" />
         <item itemvalue="Gradle.hello.spring [clean]" />
         <item itemvalue="JUnit.MemberServiceIntergrationTest" />
         <item itemvalue="JUnit.MemberServiceIntergrationTest.중복_회원_예외" />
-        <item itemvalue="Application.Application (1)" />
         <item itemvalue="JUnit.MemberServiceIntergrationTest.회원가임" />
       </list>
     </recent_temporary>

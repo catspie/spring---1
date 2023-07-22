@@ -1,9 +1,12 @@
 package hello.hello.spring;
+import hello.hello.spring.aop.TimeTraceAop;
 import hello.hello.spring.repository.*;
 import hello.hello.spring.service.MemberService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Bean;
+
+import java.sql.Time;
 
 /**
  * (구버전) xml > 자바 코드로 직접 스프링 빈 등록하기
@@ -46,4 +49,9 @@ public class SpringConfig {
 //        // jdbctemplate return new JdbcTemplateMemberRepository(dataSource);
 //        // jpa return new JpaMemberRepository(em);
 //    }
+
+/*    @Bean
+    public TimeTraceAop timeTraceAop(){
+        return new TimeTraceAop();
+    }*/
 }

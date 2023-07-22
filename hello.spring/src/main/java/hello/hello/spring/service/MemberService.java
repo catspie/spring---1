@@ -26,6 +26,8 @@ public class MemberService {
      * 회원 가입
      */
     public Long join(Member member){
+
+        long start = System.currentTimeMillis();
         /* 방법 1
         //같은 이름이 있는 중복 회원 x
         Optional<Member> result = memberRepository.findById(member.getId());
